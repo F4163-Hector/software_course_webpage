@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  padding: 0;
+  transition: 0.2s ease;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html{
+  overflow-x: hidden; /* x ekseninindeki scroll u kapatır*/
+}
+body{
+  background-color: #E84242;
+  height: 200vh;
+}
+/* header start */
+.header{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 7%;
+  margin: 20px 7%;
+  border-radius: 90px;
+  box-shadow: 3px 3px 8px gray;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.imglogo{
+  height: 150px;
+  width: 150px;
+  border-radius: 50px;
+}
+.navbar a{
+  margin:0 25px;
+  font-size: 25px;
+  color: black;
+  border-bottom: 1px solid transparent;
+}
+.navbar a:hover{
+  border-color: #E84242;
+  padding-bottom: 5px;
+}
+.head button{
+  cursor: pointer;
+  font-size: 25px;
+  margin-left: 35px;
+  background-color: transparent;
+  border: none;
+}
+/* header end */
+/* menu start*/
+.home{
+  min-height: 100vh;
+  background: url(images/yaz.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: -198px;
+  display: flex;
+  align-items: center;
+  padding:0 7%;
+}
+.home h1{
+  font-size: 80px;
+  color:white;
+}
+.home p{
+  color:white;
+  font-size: 16px;
+  line-height: 35px;
+  letter-spacing: 2px;
+}
+/* menu end*/
+/* menu start*/
+h2{
+  font-size: 60px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color:white;
+  text-align: center;
+  margin-top: 30px;
+}
+.menu-container{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.box1, .box2, .box3, .box4{
+  background-color: white;
+  height: 450px;
+  margin-left: 100px;
+  border: 3px solid white;
+  border-radius: 50px;
+  margin-top: 40px;
+}
+.box1:hover{
+  transform: scale(1.13);
+}
+.box2:hover{
+  transform: scale(1.13);
+}
+.box3:hover{
+  transform: scale(1.13);
+}
+.box4:hover{
+  transform: scale(1.13);
+}
+.box-image img{
+  border-radius: 50px;
+}
+img{
+  border-radius: 50px;
+  height: 200px;
+}
+.menu-container  p{
+  font-size: 40px;
+  margin-top: 20px;
+  text-align: center;
+}
+.box-price{
+  font-size: 30px;
+  margin-top: 30px;
+  text-align: center;
+}
+.box-price span{
+  text-decoration: line-through #E84242;
+  margin-left: 10px;
+}
+.box-bottom{
+  width: 200px;
+  height: 80px;
+  background-color: #E84242;
+  border-radius: 40px;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  padding-top: 22px;
+  box-shadow: 3px 3px 7px gray;
+  cursor:pointer;
+}
+.box-bottom a{
+ font-size: 30px;
+ color: white;
+}
+.box-bottom:hover{
+transform: scale(1.1);
+}
+/* menu end*/
